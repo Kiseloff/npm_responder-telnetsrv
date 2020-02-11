@@ -3,7 +3,7 @@ defaults = {
     'IDLE_TIMEOUT': 30,
     'RUNTIMELOG': 'telnetsrv_runtime.log',
     'LOGDIR': './logs',
-    'VERSION': '2.0.1',
+    'VERSION': '2.0.2',
     'API_HOST': 'localhost',
     'API_PORT': 5001,
 }
