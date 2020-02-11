@@ -6,7 +6,7 @@ from helpers import *
 from config import *
 
 # defaults or ENVs
-PORT = int(os.getenv('APP_PORT', defaults['PORT']))
+PORT = int(os.getenv('APP_TELNETSRV_PORT', defaults['PORT']))
 API_HOST = os.getenv('APP_API_HOST', defaults['API_HOST'])
 API_PORT = os.getenv('APP_API_PORT', defaults['API_PORT'])
 
